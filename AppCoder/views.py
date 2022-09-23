@@ -95,16 +95,6 @@ def busquedaEquipo(request):
 
     return render(request, "AppCoder/busquedaEquipo.html")
 
-
-'''
-def buscar(request):
-
-    respuesta= f"Estoy buscando la camada nro: {request.GET['camada']}"
-
-    return HttpResponse(respuesta)
-'''
-
-
 def buscar(request):
 
     if request.GET["nombre"]:
